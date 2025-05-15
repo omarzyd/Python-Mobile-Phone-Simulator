@@ -1,45 +1,24 @@
-Mobile phone simulator
-Welcome to the mobile phone simulator!
-This program is designed to help you stay organized and entertained with its six simple choices.
-Whether you need to manage your tasks, write down notes, save contacts, play games, check the weather, or even shut down your phone,
-this app has got you covered.
+# Mobile Phone Simulator
 
-Installation:
+Welcome to the **Mobile Phone Simulator**! This application is designed to help you stay organized and entertained with a variety of useful features. Whether you need to manage tasks, jot down notes, store contacts, play games, check the weather, or even shut down your phone, this app has you covered.
 
-Ensure that you have the necessary libraries for the app to function properly.
-1- Import Random library             2- Import Requests library
+## Features
 
-Usage:
+- **To-Do List**: Keep track of your tasks. Add, mark tasks as completed, and view your tasks at any time.
+- **Notes**: Write down important information or ideas you need to remember.
+- **Contacts**: Manage your contacts with a simple interface. Ensure that phone numbers and email addresses are correct, as invalid data will not be saved.
+- **Games**: Take a break and enjoy some entertainment through simple games.
+- **Weather App**: Check the current weather and forecasts for your location or any place around the world. Includes clothing and activity suggestions based on the weather.
+- **Shutdown Your Phone**: Safely shut down your phone through the app.
 
-Open the app and you will be presented with a menu having six choices.
-•To make a selection in all the program, simply enter the corresponding number and press Enter.
-•You can quit an app and go to another by selecting the quit choice. 
+## Installation
 
-Choices
+Before using the app, ensure you have the necessary libraries installed. You’ll need:
 
-To-Do List:
-Manage your tasks and stay organized. 
-Add, Mark as completed and view tasks as needed.
+1. `random` library
+2. `requests` library
 
-Notes:
-Quickly write down important information, ideas, or anything you need to remember.
+To install the required libraries, run:
 
-Contacts:
-Keep track of your contacts with this simple contact management feature.
-• Make sure that the numbers and the email are correct because invalid contacts will not be saved
-
-Games:
-Enjoy the games to entertain yourself and take a break from your daily routine.
-
-Weather App:
-Check the current weather conditions and forecast for your location or any location in the world.
-In addition to suggestions for cloth and activities !
-
-Shutdown Your Phone:
-Safely shut down your phone using this option.
-
-Data Storage:
-Your data for to-do lists, notes, and contacts will be saved within the app and in external text files for backup.
-
-We value your feedback! If you encounter any issues or have suggestions for improvement, please let us know.
-Thank you for choosing the mobile phone simulator. Stay organized and entertained!
+```bash
+pip install requests
